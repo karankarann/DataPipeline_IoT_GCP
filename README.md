@@ -1,5 +1,8 @@
 # Building an IoT Analytics Data Pipeline on Google Cloud Platform
 
+### Designed and implemented a real-time data processing pipeline for IoT (simulated sensor) project using MQTT and Google Cloud Platform (GCP). Managed data streams from thousands of temperatures and timestamped data from sensors across the city, ensuring seamless data ingestion, processing, and storage. Leveraged Google Cloud IoT Core for MQTT-based data ingestion, Cloud Dataflow for data transformation, and Cloud Pub/Sub for message distribution. Developed a scalable Big Query data warehouse for long-term data storage and analysis, and automated event-driven actions using Cloud Functions for real-time notifications. Created real-time visualization dashboards in Google Data Studio for monitoring environmental trends.
+
+
 This project focused on creating a robust and scalable pipeline for analyzing IoT data streams using Google Cloud services. The workflow involved:
 
 ## Connecting and Managing Devices:
