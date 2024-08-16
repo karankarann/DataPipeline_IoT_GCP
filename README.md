@@ -1,23 +1,23 @@
 # Building an IoT Analytics Data Pipeline on Google Cloud Platform
 
-### Designed and implemented a real-time data processing pipeline for IoT (simulated sensor) project using MQTT and Google Cloud Platform (GCP). Managed data streams from thousands of temperatures and timestamped data from sensors across the city, ensuring seamless data ingestion, processing, and storage. Leveraged Google Cloud IoT Core for MQTT-based data ingestion, Cloud Dataflow for data transformation, and Cloud Pub/Sub for message distribution. Developed a scalable Big Query data warehouse for long-term data storage and analysis, and automated event-driven actions using Cloud Functions for real-time notifications. Created real-time visualization dashboards in Google Data Studio for monitoring environmental trends.
+##### Designed and implemented a real-time data processing pipeline for IoT (simulated sensor) project using MQTT and Google Cloud Platform (GCP). Managed data streams from thousands of temperatures and timestamped data from sensors across the city, ensuring seamless data ingestion, processing, and storage. Leveraged Google Cloud IoT Core for MQTT-based data ingestion, Cloud Dataflow for data transformation, and Cloud Pub/Sub for message distribution. Developed a scalable Big Query data warehouse for long-term data storage and analysis, and automated event-driven actions using Cloud Functions for real-time notifications. Created real-time visualization dashboards in Google Data Studio for monitoring environmental trends.
 
 
 This project focused on creating a robust and scalable pipeline for analyzing IoT data streams using Google Cloud services. The workflow involved:
 
-## Connecting and Managing Devices:
+### - Connecting and Managing Devices:
 
 Used Cloud IoT Core to connect and manage simulated MQTT-based devices (using simulated devices)
 
-## Data Ingestion:
+### - Data Ingestion:
 
 Utilized Cloud Pub/Sub to ingest streams of data from Cloud IoT Core. This setup enabled real-time messaging and facilitated the seamless flow of data through the pipeline.
 
-## Data Processing:
+### - Data Processing:
 
 Implemented Cloud Dataflow to process the ingested data in real-time. This involved applying various transformations and aggregations, ensuring the data was ready for analysis.
 
-## Data Analysis:
+### - Data Analysis:
 
 Used BigQuery to analyze the processed data. Leveraged its powerful SQL-based querying capabilities to generate insights and visualizations that demonstrated the value of IoT data in understanding device behavior and performance.
 
@@ -25,7 +25,7 @@ The project showcased how Google Cloud’s fully managed services can be effecti
 
 --
 
-## Information on project key-terms
+### Information on project key-terms
 
 --
 
